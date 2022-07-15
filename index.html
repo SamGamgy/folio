@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="./css/theme.css">
+        <link rel="stylesheet" href="./css/base.css">
+        <link rel="stylesheet" href="./css/styles.css">
+        <link rel="stylesheet" href="./css/pages.css">
+        <title>folio</title>
+    </head>
+    <body>
+        <div class="theme-panel">
+            <div class="theme-body">
+                <span>Change Theme</span>
+                <div class="btn-group">
+                    <button data-toggle='light' class="switcher-btn active">Light</button>
+                    <button data-toggle='dark' class="switcher-btn">Dark</button>
+                </div>
+                <button class="theme-tab">
+                    <i class="fas fa-chevron-left"></i>
+                </button>
+            </div>
+        </div>
+        <main class="site-wrapper">
+
+            <!-- NAV Bar -->
+            <header class="site=header">
+                <nav class="navbar">
+                    <div class="brand-logo">
+                        <a href="/"><h2>folio.</h2></a>
+                    </div>
+                    <div class="navbar-nav">
+                        <ul class="ul-default-none main-menu">
+                            <li class="nav-item">Home</li>
+                            <!-- data-open is being pulled into Node List into JS. it's value of 'about' links to the id=about of the element that we want this click event to trigger -->
+                            <li class="nav-item" data-open="about">About Me</li>
+                            <li class="nav-item" data-open="contact">Contact</li>
+                        </ul>
+                    </div>
+                </nav>
+            </header>
+
+            <!-- Hero Section -->
+            <section class="hero-bg">
+                <div class="container">
+                    <div class="hero-content">
+                        <div class="code-icon">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <h2 class= 'header-large' >Code. Eat. Sleep.</h2>
+                        <div class="sub-header">I create meaningful solutions for your brands and products.
+                        <br>
+                        Give your customers the best experience possible.
+                        </div>
+                        <div class="btn btn-primary round-pill">
+                            <a href="#" data-open="contact">Let's talk now</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class=" portfolio-section">
+                <div class=" container search-container">
+                    <label for="search">
+                        <input autocomplete='off' id= 'search' type="text" class= 'search-input' placeholder="Search...">
+                        <i class="fas fa-search"></i>
+                    </label>
+                    <ul class="portfolio-filter-nav ul-default-none">
+                        <li data-filter="all" class="filter-link active">All Work</li>
+                        <li data-filter="web" class="filter-link">Web Development</li>
+                        <li data-filter="app" class="filter-link">App Development</li>
+                        <li data-filter="ui" class="filter-link">UI Design</li>
+                    </ul>
+                </div>
+
+                <div class= "portfolio-grid">
+                    
+                   <!-- dynamically added cards with script -->
+
+                </div>
+
+            </section>
+
+            <!-- reviews -->
+            <section class="reviews">
+                <div class="review-title">What People Say</div>
+                <h2 class="header-medium">Trusted by Clients.</h2>
+                <div class="review-preview">
+                    <img src="./assets/images/cube.png" alt="cube">
+                </div>
+
+                <div class="review-carousel">
+                    <div class="review-item ">
+                        <div class="review-text">
+                            #1 folio Designer Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        </div>
+                        <div class="review-author">
+                            <div class="avatar">
+                                <img src="./assets/images/ava-1.jpg" alt="avatar">
+                            </div>
+                            <div class="details">
+                                <div>Joe Schmoe</div>
+                                <div>Carp Corp</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="review-item ">
+                        <div class="review-text">
+                            #2 folio Designer Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        </div>
+                        <div class="review-author">
+                            <div class="avatar">
+                                <img src="./assets/images/ava-1.jpg" alt="avatar">
+                            </div>
+                            <div class="details">
+                                <div>Charlie Buckets</div>
+                                <div>Company.co</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="review-item ">
+                        <div class="review-text">
+                            #3 folio Designer Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        </div>
+                        <div class="review-author">
+                            <div class="avatar">
+                                <img src="./assets/images/ava-1.jpg" alt="avatar">
+                            </div>
+                            <div class="details">
+                                <div>John Jacob</div>
+                                <div>El El Sea LLC</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="review-item">
+                        <div class="review-text">
+                            #4 folio Designer Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        </div>
+                        <div class="review-author">
+                            <div class="avatar">
+                                <img src="./assets/images/ava-1.jpg" alt="avatar">
+                            </div>
+                            <div class="details">
+                                <div>Duh Doe</div>
+                                <div>Simpson Services</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="slide-ctrl-container">
+                    <button>
+                        <i class="fas fa-arrow-left"></i>
+                    </button>
+                    <button>
+                        <i class="fas fa-arrow-right"></i>
+                    </button>
+                </div>
+
+            </section>
+
+            <!-- Modals -->
+            <!-- About Page Modal -->
+            <!-- (data-name="data-value") is an attribute for holding data, functions, and animations for an element, as distinct from styles -->
+            <div id="about" class="full-site-modal page-block" data-animation="zoomInOut">
+                <div class="container-fluid">
+                    <header class="modal-header">
+                        <h3>ABOUT PAGE</h3>
+                        <i class="fas fa-times" data-close></i>
+                    </header>
+                    <div class="modal-body">
+                        <div class="img-wrapper">
+                            <img src="./assets/images/samHeadshot.JPG" alt="image headshot">
+                        </div>
+                        <div class="about-text">
+                            <h2 class= 'header-medium'>Sam Elder</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            <p>Non enim praesent elementum facilisis leo vel fringilla. Felis eget velit aliquet sagittis id consectetur purus ut.</p>
+                            <div class="contact-me">
+                                <div>Email Me:</div>
+                                <!-- mailto: opens up default email service, and starts draft to specified email -->
+                                <a href="mailto:samelder925@gmail.com">samelder925@gmail.com</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="marquee">
+                        <ul class="marquee-content">
+                            <li><i class="fab fa-github"></i></li>
+                            <li><i class="fab fa-codepen"></i></li>
+                            <li><i class="fab fa-dev"></i></li>
+                            <li><i class="fab fa-react"></i></li>
+                            <li><i class="fab fa-vuejs"></i></li>
+                            <li><i class="fab fa-angular"></i></li>
+                            <li><i class="fab fa-node"></i></li>
+                            <li><i class="fab fa-aws"></i></li>
+                            <li><i class="fab fa-docker"></i></li>
+                            <li><i class="fab fa-android"></i></li>
+
+                        </ul>
+                    </div>     
+                </div>
+            </div>
+            <!-- Contact Page Modal -->
+            <div id="contact" class="full-site-modal page-block" data-animation="zoomInOut">
+                <div class="container-fluid">
+                    <header class="modal-header">
+                        <h3>CONTACT PAGE</h3>
+                        <i class="fas fa-times" data-close></i>
+                    </header>
+                    <div class="modal-body">
+                        <div class="contact-text">
+                            <h2 class="header-medium"> Sam Elder</h2>
+                            <div>Have a project or question? Send me a message!</div>
+                            <div>I will reply within 48 hours.</div>
+                        </div>
+                        <form class="folio-form">
+                            <input class='form-control' name='name' type="text" placeholder="Name">
+                            <input class='form-control' name='email' type="email" placeholder="Email">
+                            <input class='form-control' name='subject' type="text" placeholder="Subject">
+                            <textarea  class='form-control' name="message" id="" cols="30" rows=3" placeholder="Write your message..."></textarea>
+                            <input type="submit" value="Send" class="btn btn-primary round-pill">
+                        </form>
+                    </div>     
+                </div>
+            </div>
+
+            <!-- Pop up Modals -->
+            <div class="pop-up-modals-container" >
+                <!-- Dynamically added with JS data -->
+            </div>    
+            
+        </main>    
+
+        <script src="./js/main.js"></script>
+        <script src="./js/carousel.js"></script>
+    </body>
+</html>

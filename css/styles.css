@@ -2,7 +2,7 @@
 
 .theme-panel{
     position: fixed;
-    right: 0;
+    right: -1px;
     top: 25%;
     z-index: 100;
     transition: 0.4s;
@@ -94,9 +94,20 @@
 .navbar .navbar-nav {
     margin-left: auto;
 }
+.brand-logo {
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.brand-logo img{
+    width: 50px;
+    height: 50px;
+}
 .brand-logo a h2 {
-    font-size: 1.5rem;
+    font-size: 2rem;
     letter-spacing: -0.5px;
+    font-weight: 200;
     line-height: 1.42;
 }
 .main-menu {
@@ -105,7 +116,7 @@
 
 .main-menu .nav-item {
     padding: 18px;
-    font-size: 15px;
+    font-size: 22px;
     line-height: 26px;
     cursor: pointer;
     text-transform: lowercase;
@@ -118,7 +129,7 @@
 }
 
 .code-icon {
-    background-color: #da5252;
+    background-image: url(light-animation-logo.gif);
     color: var(--color-text);
     padding: 1.25rem 1.5rem;
     border-radius: 50rem;
@@ -196,12 +207,13 @@ cursor: pointer;
 .portfolio-card {
     display:relative;
     margin: 0 1rem 1.85rem;
-    max-width: 255px;
+    max-width: 410px;
 }
 
 .card-body img {
-    width:255px;
+    width:400px;
     height: 255px;
+    background: #262626;
     object-fit: cover;
     border-radius:8px;
     cursor: pointer;

@@ -16,6 +16,21 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+[data-theme="dark"] .hero-bg {
+    background-image: url("../assets/images/star-background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.light-logo, .dark-logo {
+    display: none;
+}
+[data-theme='light'] .light-logo{
+    display: block;
+}
+[data-theme='dark'] .dark-logo{
+    display: block;
+}
 
 /* data attribute for dark theme
 Reassigning the variable names to different values, so that it will automatically change */

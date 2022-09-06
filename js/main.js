@@ -47,18 +47,18 @@ portfolioDataArray = [
 
 {id: 1, 
     dataItem:'web',
-    imgSrc: "./assets/images/portfolio-1.jpg", 
-    header: 'Web Project 1', 
-    subHead:"Food Website",
+    imgSrc: "./assets/images/school-site-thumbnail.png", 
+    header: 'Private School Website', 
+    subHead:"Montessori Lab School",
     category: 'Web Development',
-    description: 'Food Website' ,
+    description: 'Private School Website' ,
     descriptOne: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.', 
-    descriptTwo: 'Egestas maecenas pharetra convallis posuere morbi leo urna molestie. Venenatis urna cursus eget nunc scelerisque.', 
+    descriptTwo: `<a target='_blank' href='https://samgamgy.github.io/montessori-lab-school/'> Check it out Here </a>`, 
     dataOpen: 'web-1'} ,
 
 {id: 2, 
     dataItem:'web',
-    imgSrc: "./assets/images/portfolio-2.jpg", 
+    imgSrc: "./assets/images/battleship-thumbnail.jpg", 
     header: 'Web Project 2', 
     subHead:"Coaching Website",
     category: 'Web Development',
@@ -69,7 +69,7 @@ portfolioDataArray = [
 
 {id: 3, 
     dataItem:'web',
-    imgSrc: "./assets/images/portfolio-3.jpg", 
+    imgSrc: "./assets/images/cc-validator-thumbnail.png", 
     header: 'Web Project 3', 
     subHead:"Tech Website",
     category: 'Web Development',
@@ -80,7 +80,7 @@ portfolioDataArray = [
 
 {id: 4, 
     dataItem:'ui',
-    imgSrc: "./assets/images/portfolio-4.jpg", 
+    imgSrc: "./assets/images/checkout-thumbnail.png", 
     header: 'UI Design 1', 
     subHead:"App Interface",
     category: 'UI Design',
@@ -91,7 +91,7 @@ portfolioDataArray = [
 
 {id: 5, 
     dataItem:'app',
-    imgSrc: "./assets/images/portfolio-5.jpg", 
+    imgSrc: "./assets/images/debt-calc-thumbnail.jpg", 
     header: 'App 1',
     subHead:"Delivery App", 
     category: 'App Development',
@@ -102,7 +102,7 @@ portfolioDataArray = [
 
 {id: 6, 
     dataItem:'app',
-    imgSrc: "./assets/images/portfolio-6.jpg", 
+    imgSrc: "./assets/images/digital-card-organizer-thumbnail.jpg", 
     header: 'App 2', 
     subHead:"Finance App",
     category: 'App Development',
@@ -113,7 +113,7 @@ portfolioDataArray = [
 
 {id: 7, 
     dataItem:'app',
-    imgSrc: "./assets/images/portfolio-7.jpg", 
+    imgSrc: "./assets/images/novel-thumbnail.png", 
     header: 'App 3', 
     subHead:"Life Style App",
     category: 'App Development',
@@ -124,7 +124,7 @@ portfolioDataArray = [
 
 {id: 8, 
     dataItem:'ui',
-    imgSrc: "./assets/images/portfolio-8.jpg", 
+    imgSrc: "./assets/images/person-portfolio-thumbnail.png", 
     header: 'UI Design 2', 
     subHead:"Company Branding",
     category: 'UI Design',

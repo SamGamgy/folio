@@ -129,7 +129,6 @@
 }
 
 .code-icon {
-    background-image: url(light-animation-logo.gif);
     color: var(--color-text);
     padding: 1.25rem 1.5rem;
     border-radius: 50rem;
@@ -167,6 +166,7 @@
  .search-container .fa-search {
     position: absolute;
     right: 15px;
+    color: #262626;
 }
 
 .portfolio-grid {
@@ -211,10 +211,10 @@ cursor: pointer;
 }
 
 .card-body img {
-    width:400px;
+    width:255px;
     height: 255px;
     background: #262626;
-    object-fit: cover;
+    object-fit: contain;
     border-radius:8px;
     cursor: pointer;
 }

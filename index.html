@@ -53,8 +53,8 @@
                 <div class="container">
                     <div class="hero-content">
                         <div class="code-icon">
-                            <img class='dark-logo' src="./assets/images/dark-logo-animation.gif" alt="">
-                            <img class='light-logo' src="./assets/images/light-logo-animation.gif" alt="">
+                            <img class='dark-logo' src="./assets/images/logo-animation.gif" alt="">
+                            <img class='light-logo' src="./assets/images/logo-animation.gif" alt="">
                         </div>
                         <h2 class= 'header-large' >Design. Develop. Deploy.</h2>
                         <div class="sub-header">I create meaningful solutions for your brands and products.
@@ -77,8 +77,9 @@
                     <ul class="portfolio-filter-nav ul-default-none">
                         <li data-filter="all" class="filter-link active">All Work</li>
                         <li data-filter="web" class="filter-link">Web Development</li>
-                        <li data-filter="app" class="filter-link">App Development</li>
-                        <li data-filter="ui" class="filter-link">UI Design</li>
+                        <li data-filter="app" class="filter-link">React Apps</li>
+                        <li data-filter="ui" class="filter-link">Custom UI Design</li>
+                        <li data-filter="other" class="filter-link">Other</li>
                     </ul>
                 </div>
 
@@ -186,8 +187,8 @@
                         </div>
                         <div class="about-text">
                             <h2 class= 'header-medium'>Sam Elder</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                            <p>Non enim praesent elementum facilisis leo vel fringilla. Felis eget velit aliquet sagittis id consectetur purus ut.</p>
+                            <p>I am a Web Developer, working with HTML, CSS, JavaScript, React.js, Node.js, and GitHub. </p>
+                            <p>I am also a Designer with experience in graphic design, animation, and video editing. I am competent with Adobe Photoshop, Adobe Illustrator, and Figma</p>
                             <div class="contact-me">
                                 <div>Email Me:</div>
                                 <!-- mailto: opens up default email service, and starts draft to specified email -->
@@ -199,14 +200,11 @@
                         <ul class="marquee-content">
                             <li><i class="fab fa-github"></i></li>
                             <li><i class="fab fa-codepen"></i></li>
-                            <li><i class="fab fa-dev"></i></li>
+                            <li><i class="fa-brands fa-js"></i></li>
+                            <li><i class="fa-brands fa-html5"></i></li>
+                            <li><i class="fa-brands fa-css3-alt"></i></li>
                             <li><i class="fab fa-react"></i></li>
-                            <li><i class="fab fa-vuejs"></i></li>
-                            <li><i class="fab fa-angular"></i></li>
                             <li><i class="fab fa-node"></i></li>
-                            <li><i class="fab fa-aws"></i></li>
-                            <li><i class="fab fa-docker"></i></li>
-                            <li><i class="fab fa-android"></i></li>
 
                         </ul>
                     </div>     
@@ -225,11 +223,14 @@
                             <div>Have a project or question? Send me a message!</div>
                             <div>I will reply within 48 hours.</div>
                         </div>
-                        <form class="folio-form">
-                            <input class='form-control' name='name' type="text" placeholder="Name">
-                            <input class='form-control' name='email' type="email" placeholder="Email">
-                            <input class='form-control' name='subject' type="text" placeholder="Subject">
-                            <textarea  class='form-control' name="message" id="" cols="30" rows=3" placeholder="Write your message..."></textarea>
+                        <form class="folio-form" action="https://formsubmit.co/samelder925@gmail.com" method="POST">
+                            <input type="text" name="_honey" style="display:none">
+                            <input type="hidden" name="_captcha" value="false">
+
+                            <input required class='form-control' name='name' type="text" placeholder="Name">
+                            <input required class='form-control' name='email' type="email" placeholder="Email">
+                            <input required class='form-control' name='subject' type="text" placeholder="Subject">
+                            <textarea  required class='form-control' name="message" id="" cols="30" rows=3" placeholder="Write your message..."></textarea>
                             <input type="submit" value="Send" class="btn btn-primary round-pill">
                         </form>
                     </div>     

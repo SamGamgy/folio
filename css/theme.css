@@ -11,13 +11,13 @@
 }
 
 [data-theme="light"] .hero-bg {
-    background-image: url("../assets/images/hero-pattern.webp");
+    background-image: linear-gradient(0deg, #fff 0%, rgba(255,255,255,0) 15%, rgba(255,255,255,0) 100%), url("../assets/images/cloud-background.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 [data-theme="dark"] .hero-bg {
-    background-image: url("../assets/images/star-background.jpg");
+    background-image: linear-gradient(0deg, #171a23 0%, rgba(255,255,255,0) 15%, rgba(255,255,255,0) 100%), url("../assets/images/star-background.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;

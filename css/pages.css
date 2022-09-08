@@ -120,11 +120,11 @@
         --marquee-elms-displayed:3;
     }
     .marque:before,
-    .marque:after, { width:5rem;}
+    .marque:after {width:5rem;}
 }
 @media (max-width: 450px) {
     :root {
-        --marquee-elms-displayed:2;
+        --marquee-elms-displayed:1;
     }
     
 }

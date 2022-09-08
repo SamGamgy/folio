@@ -1,0 +1,17 @@
+@media all and (max-width:1025px) {
+    .brand-logo a {display: none;}
+}
+@media all and (max-width:625px) {
+    .code-icon img {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .main-menu .nav-item {
+        padding: 10px;
+        font-size: 15px;
+    }
+    .header-large {
+        font-size: 3.5rem;
+    }
+}

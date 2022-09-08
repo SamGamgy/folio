@@ -95,8 +95,9 @@
     margin-left: auto;
 }
 .brand-logo {
-    width: 400px;
+    width: max-content;
     display: flex;
+    gap: 3rem;
     align-items: center;
     justify-content: space-around;
 }

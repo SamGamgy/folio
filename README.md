@@ -8,6 +8,9 @@ This is a dynamic Portfolio Website Page that includes:
 -carousel testimonials 
 -scrolling marquee
 
-I employ Javascript, CSS, and HTML
+Portfolio Cards are created dynamically from data, and converted to HTML with JavaScript, making this scalable as the portfolio grows.
 
-Deployed here: https://folio-sandy.vercel.app/
+
+Deployed with Vercel
+
+here: https://sam-e-samgamgy.vercel.app/

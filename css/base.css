@@ -89,6 +89,7 @@ button:not(:disabled):not(.disabled) {
     color: #fff;
     background-color: #495fef;
     border-color: #495fef; 
+    padding:1rem;
 }
 
 .round-pill {

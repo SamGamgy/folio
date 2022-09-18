@@ -43,7 +43,7 @@ const active = 'active';
 // POP UP MODALS
 
 
-portfolioDataArray = [
+let portfolioDataArray = [
 
 {id: 1, 
     dataItem:'web, ui',
@@ -80,7 +80,7 @@ portfolioDataArray = [
 
 {id: 4, 
     dataItem:'app',
-    imgSrc: "./assets/images/checkout-thumbnail.png", 
+    imgSrc: "./assets/images/checkout-thumbnail.jpg", 
     header: 'React.js App', 
     subHead:"5-Step E-Commerce CheckOut App",
     category: 'React.js App',
@@ -101,7 +101,7 @@ portfolioDataArray = [
     dataOpen: 'app-1' } ,
 
 {id: 6, 
-    dataItem:'ui',
+    dataItem:'other',
     imgSrc: "./assets/images/digital-card-organizer-thumbnail.jpg", 
     header: 'Web Development', 
     subHead:"Digital Card Organizer Website",
@@ -129,8 +129,8 @@ portfolioDataArray = [
     subHead:"Production Manager Website",
     category: 'Web Development',
     description: 'Production Manager Website',
-    descriptOne: 'This site was designed and built for a freelance client.', 
-    descriptTwo:`<a target='_blank' href=''> Check it out Here </a>` , 
+    descriptOne: 'Professional portfolio for independent contractor working in the entertainment and theater industries', 
+    descriptTwo:`<a target='_blank' href='https://verdant-halva-8938c9.netlify.app/'> Check it out Here </a>` , 
     dataOpen: 'ui-2' },
 
 {id: 9, 
@@ -142,7 +142,17 @@ portfolioDataArray = [
     description: 'Software Website Landing Page',
     descriptOne: 'This site was developed from a Figma mock-up. It is mobile responsive and has subtle, clean, CSS animations.', 
     descriptTwo:`<a target='_blank' href='https://saa-s-website.vercel.app/'> Check it out Here </a>` , 
-    dataOpen: 'ui-2' }
+    dataOpen: 'web-2' },
+{id: 10, 
+    dataItem:'app',
+    imgSrc: "", 
+    header: 'React.JS App', 
+    subHead:"Weather Forecast",
+    category: 'React.JS App',
+    description: 'Five Day Weather Forcast',
+    descriptOne: 'This React App is built with JSON data from OpenWeather API and is styled with Bootstrap', 
+    descriptTwo:`<a target='_blank' href=''> Check it out Here </a>` , 
+    dataOpen: 'app-4' }
 ];
 // Card Creator
 

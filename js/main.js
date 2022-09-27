@@ -145,13 +145,13 @@ let portfolioDataArray = [
     dataOpen: 'web-2' },
 {id: 10, 
     dataItem:'app',
-    imgSrc: "", 
+    imgSrc: "./assets/images/weather-app.jpg", 
     header: 'React.JS App', 
     subHead:"Weather Forecast",
     category: 'React.JS App',
-    description: 'Five Day Weather Forcast',
-    descriptOne: 'This React App is built with JSON data from OpenWeather API and is styled with Bootstrap', 
-    descriptTwo:`<a target='_blank' href=''> Check it out Here </a>` , 
+    description: 'Five Day Weather Forecast',
+    descriptOne: 'This React App is built with JSON data from OpenWeatherMap API and is styled with Bootstrap', 
+    descriptTwo:`<a target='_blank' href='https://five-day-forecast-usa.netlify.app/'> Check it out Here </a>` , 
     dataOpen: 'app-4' }
 ];
 // Card Creator

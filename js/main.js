@@ -161,7 +161,7 @@ let portfolioDataArray = [
     category: 'jQuery Project',
     description: 'Basic Calculator',
     descriptOne: 'his project is a simple, minimal, functional calculator. Project is built with HTML, CSS, JavaScript, jQuery', 
-    descriptTwo:`<a target='_blank' href='https://vercel.com/samgamgy/minimalist-calculator-3h6f'> Check it out Here </a>` , 
+    descriptTwo:`<a target='_blank' href='https://minimalist-calculator-3h6f-g85i97m5w-samgamgy.vercel.app/'> Check it out Here </a>` , 
     dataOpen: 'app-4' }
 ];
 // Card Creator

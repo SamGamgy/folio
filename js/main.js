@@ -142,7 +142,7 @@ let portfolioDataArray = [
     description: 'Software Website Landing Page',
     descriptOne: 'This site was developed from a Figma mock-up. It is mobile responsive and has subtle, clean, CSS animations.', 
     descriptTwo:`<a target='_blank' href='https://saa-s-website.vercel.app/'> Check it out Here </a>` , 
-    dataOpen: 'web-2' },
+    dataOpen: 'web-4' },
 {id: 10, 
     dataItem:'app',
     imgSrc: "./assets/images/weather-app.jpg", 
@@ -152,7 +152,7 @@ let portfolioDataArray = [
     description: 'Five Day Weather Forecast',
     descriptOne: 'This React App is built with JSON data from OpenWeatherMap API and is styled with Bootstrap', 
     descriptTwo:`<a target='_blank' href='https://five-day-forecast-usa.netlify.app/'> Check it out Here </a>` , 
-    dataOpen: 'app-4' },
+    dataOpen: 'app-6' },
 {id: 11, 
     dataItem:'app',
     imgSrc: "./assets/images/min-calc-thumbnail.png", 
@@ -162,7 +162,7 @@ let portfolioDataArray = [
     description: 'Basic Calculator',
     descriptOne: 'his project is a simple, minimal, functional calculator. Project is built with HTML, CSS, JavaScript, jQuery', 
     descriptTwo:`<a target='_blank' href='https://minimalist-calculator-3h6f-g85i97m5w-samgamgy.vercel.app/'> Check it out Here </a>` , 
-    dataOpen: 'app-4' }
+    dataOpen: 'app-5' }
 ];
 // Card Creator
 

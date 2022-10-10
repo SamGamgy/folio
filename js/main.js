@@ -85,7 +85,7 @@ let portfolioDataArray = [
     category: 'Web Development',
     description: 'Production Manager Website',
     descriptOne: 'Professional portfolio for independent contractor working in the entertainment and theater industries', 
-    descriptTwo:`<a target='_blank' href='https://verdant-halva-8938c9.netlify.app/'> Check it out Here </a>` , 
+    descriptTwo:`<a target='_blank' href='https://rachele.netlify.app/'> Check it out Here </a>` , 
     dataOpen: 'ui-2' },
 
 {id: 9, 

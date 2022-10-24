@@ -53,7 +53,7 @@ let portfolioDataArray = [
     category: 'Web Development',
     description: 'Private School Website' ,
     descriptOne: 'Custom design and development for private school. Built with HTML/CSS JavaScript and GitHub', 
-    descriptTwo: `<a target='_blank' href='https://samgamgy.github.io/montessori-lab-school/'> Check it out Here </a>`, 
+    descriptTwo: `<a target='_blank' href='https://samgamgy.github.io/PrivateSchool/'> Check it out Here </a>`, 
     dataOpen: 'web-1'} ,
 
 
